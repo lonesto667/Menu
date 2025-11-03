@@ -1,45 +1,61 @@
 /* Common css Start*/
-*{
+* {
     margin: 0;
     padding: 0;
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul, ol{
-list-style-type: none;
+
+ul,ol {
+    list-style-type: none;
 }
+
 /* Common css Stop*/
 
-/* Menu container start */
-.menuBar{
+
+
+/* Menu Bar start */
+.menuBar {
     background: #FFC50F;
-    /* height: 50px; */
-    padding: 5px 0;
-}
-/* Menu container stop */
-
-.menuItemsContainer{
-width: 1320px;
-/* background: #63A361; */
-margin: 0 auto;
-text-align: center;
-
 }
 
 
-/* Menu items un-order list start */
-
-.menuItemsContainer u, li{
-display: inline-block   ;
-}
-
-.menuItemsContainer ul, li, a {
-
-padding: 0 20px;
-color: #5B532C;
-text-transform: uppercase;
-
+/* Menu container start */
+.menuItemsContainer {
+    width: 1320px;
+    
+    margin: 0 auto;
+    text-align: center;
+    
 
 }
+
+
+/* Menu items un-order Design start */
+
+.menuItemsContainer u, li {
+    display: inline-block;
+    line-height: 50px;
+}
+
+.menuItemsContainer ul,li,a {
+
+    padding: 0 20px;
+    color: #5B532C;
+    text-transform: uppercase;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 20px;
+    transition: all linear .4s;
+}
+
+.menuItemsContainer ul,li,a:hover{
+    color: #63A361;
+
+} 
+
 /* Menu items un-order list stop */
+/* Menu container stop */
+/* Menu Bar start */
