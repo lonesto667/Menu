@@ -27,10 +27,15 @@ text-align: center;
 
 }
 
+
 /* Menu items un-order list start */
+
+.menuItemsContainer u, li{
+display: inline-block   ;
+}
+
 .menuItemsContainer ul, li, a {
-display: inline-block;
-/* justify-content: center; */
+
 padding: 0 20px;
 color: #5B532C;
 text-transform: uppercase;
